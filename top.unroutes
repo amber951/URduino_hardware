@@ -1,0 +1,86 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Jul 01 21:07:57 2015
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 74 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   SDK_FIFO_AlmostEmpty_IBUF
+   SDK_FIFO_AlmostFull_IBUF
+   SDK_FIFO_CH<0>_IBUF
+   SDK_FIFO_CH<1>_IBUF
+   SDK_FIFO_CH<2>_IBUF
+   SDK_FIFO_CH<3>_IBUF
+   SDK_FIFO_CH<4>_IBUF
+   SDK_FIFO_CH<5>_IBUF
+   SDK_FIFO_CH<6>_IBUF
+   SDK_FIFO_CH<7>_IBUF
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart1/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart1/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart10/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart10/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart11/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart11/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart12/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart12/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart13/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart13/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart14/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart14/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart15/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart15/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart16/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart16/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart2/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart2/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart3/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart3/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart4/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart4/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart5/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart5/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart6/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart6/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart7/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart7/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart8/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart8/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart9/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart9/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart1/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart1/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart10/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart10/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart11/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart11/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart12/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart12/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart13/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart13/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart14/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart14/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart15/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart15/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart16/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart16/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart2/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart2/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart3/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart3/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart4/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart4/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart5/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart5/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart6/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart6/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart7/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart7/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart8/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart8/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart9/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O
+   or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart9/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O
+
+

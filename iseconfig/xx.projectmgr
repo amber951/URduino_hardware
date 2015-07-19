@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="xx" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/or1200_immu_tlb C:|Users|amberlee|Desktop|ise|xx|or1200_immu_tlb.v</ClosedNode>
+         <ClosedNode>/or1200_immu_tlb C:|Users|amber|Desktop|xx|or1200_immu_tlb.v</ClosedNode>
+         <ClosedNode>/port_top C:|Users|amber|Desktop|xx|pwm_top.v</ClosedNode>
+         <ClosedNode>/pwm_top C:|Users|amberlee|Desktop|ise|xx|pwm_top.v</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_cpu - or1200_cpu/or1200_lsu - or1200_lsu</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_cpu - or1200_cpu/or1200_mult_mac - or1200_mult_mac</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_cpu - or1200_cpu/or1200_rf - or1200_rf</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_dc_top - or1200_dc_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_dmmu_top - or1200_dmmu_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_ic_top - or1200_ic_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top/or1200_qmem_top - or1200_qmem_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_ram0 - ram0_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_uart - uart_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s0 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s1 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s10 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s11 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s12 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s13 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s14 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s15 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s2 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s3 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s4 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s5 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s6 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s7 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s8 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amberlee|Desktop|ise|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top/s9 - wb_conmax_slave_if</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/p_pwm - pwm_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/portB - port</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/portC - port</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/portD - port</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_or1200 - or1200_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_ram0 - ram0_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_uart - uart_top/regs - uart_regs</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_uart - uart_top/regs - uart_regs/transmitter - uart_transmitter</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/u_wb - wb_conmax_top</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartA - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartA - uart/regs - uart_regs/receiver - uart_receiver</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartA - uart/regs - uart_regs/transmitter - uart_transmitter</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartB - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartC - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartD - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartE - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartF - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartG - uart</ClosedNode>
+         <ClosedNode>/top C:|Users|amber|Desktop|xx|top.v/or1200_sopc_inst_0 - or1200_sopc/or1200 - or1200_sys/uartH - uart</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>top.ucf (C:/Users/amber/Desktop/xx/top.ucf)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >76</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>top.ucf (C:/Users/amber/Desktop/xx/top.ucf)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000400000000100000000000000240000000100000000000000680000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>GPIO_imp.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000190000000010000000100000000000000000000000064ffffffff000000810000000000000001000001900000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000190000000010000000100000000000000000000000064ffffffff000000810000000000000001000001900000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000fd0000007f01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000190000000010000000100000000000000000000000064ffffffff000000810000000000000001000001900000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <CopyAdditionalFiles/>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000190000000010000000100000000000000000000000064ffffffff000000810000000000000001000001900000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

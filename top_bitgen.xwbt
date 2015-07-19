@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\amber\Desktop\test_sub_reg\top.ncd
+OUTFILE=C:\Users\amber\Desktop\test_sub_reg\top.bit
+FAMILY=Spartan6
+PART=xc6slx75t-2fgg676
+WORKINGDIR=C:\Users\amber\Desktop\test_sub_reg
+LICENSE=WebPack
+USER_INFO=__0_0_0

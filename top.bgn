@@ -1,0 +1,396 @@
+Release 14.7 - Bitgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '6slx75t.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "top" is an NCD, version 3.2, device xc6slx75t, package fgg676, speed -2
+Opened constraints file top.pcf.
+
+Wed Jul 01 21:09:27 2015
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g Binary:no -g Compress -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullNone -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:Yes -g Encrypt:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 top.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Enabled)            |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable**             |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 2**                  |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullup**             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pullnone             |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | Yes                  |
++----------------------+----------------------+
+| DonePipe             | No**                 |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF**         |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| Encrypt              | No**                 |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| drive_awake          | No**                 |
++----------------------+----------------------+
+| Reset_on_err         | No**                 |
++----------------------+----------------------+
+| suspend_filter       | Yes*                 |
++----------------------+----------------------+
+| en_sw_gsr            | No**                 |
++----------------------+----------------------+
+| en_suspend           | No*                  |
++----------------------+----------------------+
+| sw_clk               | Startupclk**         |
++----------------------+----------------------+
+| sw_gwe_cycle         | 5**                  |
++----------------------+----------------------+
+| sw_gts_cycle         | 4**                  |
++----------------------+----------------------+
+| multipin_wakeup      | No**                 |
++----------------------+----------------------+
+| wakeup_mask          | 0x00*                |
++----------------------+----------------------+
+| ExtMasterCclk_en     | No**                 |
++----------------------+----------------------+
+| ExtMasterCclk_divide | 1*                   |
++----------------------+----------------------+
+| CrcCoverage          | No*                  |
++----------------------+----------------------+
+| glutmask             | Yes*                 |
++----------------------+----------------------+
+| next_config_addr     | 0x00000000*          |
++----------------------+----------------------+
+| next_config_new_mode | No*                  |
++----------------------+----------------------+
+| next_config_boot_mode | 001*                 |
++----------------------+----------------------+
+| next_config_register_write | Enable*              |
++----------------------+----------------------+
+| next_config_reboot   | Enable*              |
++----------------------+----------------------+
+| golden_config_addr   | 0x00000000*          |
++----------------------+----------------------+
+| failsafe_user        | 0x0000*              |
++----------------------+----------------------+
+| TIMER_CFG            | 0xFFFF               |
++----------------------+----------------------+
+| spi_buswidth         | 1**                  |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No**                 |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 0 CONFIG constraint(s) processed from top.pcf.
+
+
+Running DRC.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   or1200_sopc_inst_0/or1200/u_or1200/or1200_cpu/or1200_genpc/rst_GND_18_o_AND_1
+   73_o is sourced by a combinatorial pin. This is not good design practice. Use
+   the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart4/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart16/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart16/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart14/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart14/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart8/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart8/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart10/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart10/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart4/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart15/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart3/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart10/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart15/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart10/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart12/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart14/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart5/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart9/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart2/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart2/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart15/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart3/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart6/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart6/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart15/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart12/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart14/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart5/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart6/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart7/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart7/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart11/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart8/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart8/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart9/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart1/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart16/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart12/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart13/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart9/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart13/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart12/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart6/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart11/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart9/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart11/regs/receiver/fifo
+   _rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart11/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart13/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart16/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart7/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart3/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart2/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart1/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart13/regs/transmitter/f
+   ifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart3/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupB/uart1/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart7/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart4/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart1/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart5/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart4/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart5/regs/receiver/fifo_
+   rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <or1200_sopc_inst_0/or1200/uart_control/uart_groupA/uart2/regs/transmitter/fi
+   fo_tx/tfifo/Mram_ram1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+DRC detected 0 errors and 65 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "top.bit".
+Bitstream compression saved 2435696 bits.
+Bitstream generation is complete.

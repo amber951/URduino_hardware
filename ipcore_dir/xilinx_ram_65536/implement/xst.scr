@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent xilinx_ram_65536_exdes
+-p xc6slx75t-fgg676-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn xilinx_ram_65536_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain
